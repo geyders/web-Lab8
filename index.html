@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Pair Game</title>
+    <link rel="stylesheet" href="/Lab8/css/style.css">
+</head>
+
+<body>
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <div class="game-container">
+            <h1>Memory Pair Game</h1>
+
+            <!-- Блок налаштувань -->
+            <div class="settings">
+                <label for="rows">Кількість рядків:</label>
+                <input type="number" id="rows" value="4" min="4" max="10">
+
+                <label for="columns">Кількість стовпців:</label>
+                <input type="number" id="columns" value="4" min="4" max="10">
+
+                <label for="difficulty">Рівень складності:</label>
+                <select id="difficulty">
+                    <option value="easy">Легкий (3 хв.)</option>
+                    <option value="normal">Нормальний (2 хв.)</option>
+                    <option value="hard">Важкий (1 хв.)</option>
+                </select>
+                <button id="startBtn">Почати гру</button>
+                <button id="newGameBtn">Нова гра</button>
+            </div>
+
+            <div class="game-board">
+                <!-- Картки гри будуть додаватись тут -->
+            </div>
+            <div class="info">
+                <div class="timer" id="timer">Час: 0</div>
+                <div class="score" id="score">Рахунок: 0</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/Lab8/js/script.js"></script>
+</body>
+
+</html>
