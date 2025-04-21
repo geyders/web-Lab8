@@ -12,7 +12,6 @@ const users = document.getElementById('users');
 const nameInputs = document.getElementById('nameInputs');
 const round = document.getElementById('round');
 
-// зробити кількість гравців норм і кількість раундів
 
 const images = [
     'images/gon.jpg', 'images/killua.jpg', 'images/feitan.jpg', 'images/kurapika.jpg',
